@@ -4,7 +4,7 @@ Directive for Vue.js to format BRL price.
 That directive is a simple input string formatter to BRL money type, made especially to Vue.js and for a while have support to unique money type, BRL.
 
 # Dependencies
-no dependencies
+No dependencies, only Vue.js
 
 # How to use
 1. Clone or copy the price-directive.js to your project
