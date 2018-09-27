@@ -37,10 +37,9 @@ const eventKeydownPrice = event => {
 }
 
 Vue.directive('pmoney', {
+  
   bind (el, binding) {
-    console.log('element?: ', el)
-    console.log('binding?: ', binding)
-
+    
     el.addEventListener('keyup', eventKeydownPrice)
     el.addEventListener('mousedown', preventCursorPosition)
   }
